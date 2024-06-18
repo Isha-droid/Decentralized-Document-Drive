@@ -1,0 +1,79 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal is on top of other content */
+}
+
+.modalContainer {
+  width: 400px;
+  max-width: 90%;
+  background-color: #1a1a1a; /* Dark background color */
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #e0e0e0; /* Light text color */
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.body {
+  margin-bottom: 15px;
+}
+
+.address, #selectNumber {
+  width: calc(100% - 22px); /* Adjusted width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #333; /* Darker input background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.footer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cancelBtn {
+  background-color: crimson;
+  color: white;
+}
+
+#cancelBtn:hover {
+  background-color: #d9534f;
+}
+
+.footer button:last-child {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.footer button:last-child:hover {
+  background-color: #3b8eff;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.file-upload-container {
+  margin: 40px auto;
+  max-width: 500px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.file-upload-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.file-upload-label {
+  background: linear-gradient(-180deg, #ff6f61, #d45a50);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.file-upload-label:hover {
+  background: linear-gradient(-180deg, #ff856f, #d46f60);
+}
+
+#file-upload {
+  display: none;
+}
+
+.file-upload-filename {
+  color: #e0e0e0;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.file-upload-button {
+  background: linear-gradient(-180deg, #13aa52, #0d8540);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.file-upload-button:hover {
+  background: linear-gradient(-180deg, #1ad460, #0d954e);
+}
+
+.file-upload-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.file-upload-container h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+.file-upload-container p {
+  font-family: 'Lato', sans-serif;
+  color: #e0e0e0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}

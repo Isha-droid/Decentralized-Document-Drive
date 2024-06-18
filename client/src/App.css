@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  padding: 30px 20px; /* Reduce padding for smaller screens */
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px; /* Adjusted font size for smaller screens */
+  font-weight: 700;
+  margin-bottom: 20px; /* Reduced margin for smaller screens */
+  color: #ff6f61;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 100vw; /* Ensure navbar does not overflow viewport width */
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+}
+
+.navbar h1 {
+  color: #ff6f61;
+  font-size: 20px;
+  margin: 0;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+}
+
+.nav-links li {
+  display: inline;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff6f61;
+}
+
+
+.share {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px; /* Reduced padding for smaller screens */
+  font-size: 14px; /* Adjusted font size for smaller screens */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px; /* Reduced margin for smaller screens */
+  font-weight: 700;
+}
+
+.share:hover {
+  background-color: #e65c54;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 130px); /* Adjusted min-height for smaller screens */
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+p {
+  font-size: 1rem; /* Adjusted font size for smaller screens */
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 15px 20px; /* Reduced padding for smaller screens */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px; /* Adjusted font size for smaller screens */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px; /* Further reduced font size for smaller screens */
+  }
+
+  .navbar h1 {
+    font-size: 18px; /* Further reduced font size for smaller screens */
+  }
+
+  .nav-links a {
+    font-size: 12px; /* Further reduced font size for smaller screens */
+  }
+
+  .share {
+    padding: 10px 20px; /* Further reduced padding for smaller screens */
+    font-size: 12px; /* Further reduced font size for smaller screens */
+    margin-top: 10px; /* Further reduced margin for smaller screens */
+  }
+
+  .App {
+    min-height: calc(100vh - 120px); /* Adjusted min-height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px; /* Adjusted font size for smallest screens */
+    margin-bottom: 15px; /* Further reduced margin for smallest screens */
+  }
+
+  .navbar h1 {
+    font-size: 16px; /* Adjusted font size for smallest screens */
+  }
+
+  .nav-links {
+    gap: 10px; /* Further reduced gap for smallest screens */
+  }
+
+  .nav-links a {
+    font-size: 10px; /* Adjusted font size for smallest screens */
+  }
+
+  .share {
+    padding: 8px 16px; /* Further reduced padding for smallest screens */
+    font-size: 10px; /* Adjusted font size for smallest screens */
+    margin-top: 10px; /* Further reduced margin for smallest screens */
+  }
+
+  .App {
+    min-height: calc(100vh - 100px); /* Adjusted min-height for smallest screens */
+  }
+
+  .footer {
+    padding: 10px 15px; /* Further reduced padding for smallest screens */
+  }
+
+  .footer p {
+    font-size: 10px; /* Adjusted font size for smallest screens */
+  }
+}
