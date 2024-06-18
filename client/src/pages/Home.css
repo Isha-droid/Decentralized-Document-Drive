@@ -1,0 +1,67 @@
+.home-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* Text color for all text inside home-container */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .account-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feature-item {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .card {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
