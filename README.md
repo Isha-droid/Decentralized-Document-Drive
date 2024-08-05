@@ -1,6 +1,6 @@
 # Decentralized Document Drive
 
-Decentralized Document Drive is a web application that allows users to securely upload and retrieve documents using blockchain technology. It leverages Ethereum smart contracts for decentralized storage and authentication.
+Decentralized Document Drive is an application that allows users to securely upload and retrieve documents using blockchain technology. It leverages Ethereum smart contracts for decentralized storage and authentication.
 
 ## Features
 
